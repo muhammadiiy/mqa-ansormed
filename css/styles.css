@@ -33,10 +33,19 @@
    width: 1100;
  }
 
- .btn-wrapper {
-   display: flex;
-   justify-content: center;
- }
+.logo-link svg {
+  color: #222;
+  transition: color 0.4s ease;
+  opacity: 0.4s ease;
+}
+
+.logo-link svg:hover {
+  color: #DE2E54;
+}
+
+.logo-link svg:active {
+  opacity: 0.6;
+}
 
  .main-link {
    display: inline-block;
@@ -207,6 +216,11 @@ margin-bottom: 36px;
   line-height: 24px;
   }
 
+  .service-btn-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
   .service-btn:hover {
     background-color: #FFFFFF;
     color: #DE2E54;
@@ -310,6 +324,21 @@ margin-bottom: 36px;
  .site-footer-list-item:last-child {
    margin-right: 0;
  }
+
+.footer-logo-link svg {
+  color: #FFFFFF;
+  transition: color 0.4s ease,
+  opacity 0.4s ease;
+}
+
+.footer-logo-link svg:hover {
+  color: #DE2E54;
+}
+
+.footer-logo-link svg:active {
+  color: #FFFFFF;
+  opacity: 0.6;
+}
 
 .site-footer-link {
   color: #FFFFFF;
