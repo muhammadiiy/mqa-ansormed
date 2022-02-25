@@ -68,8 +68,7 @@
   line-height: 22.5px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  transition: background-color 0.4s ease,
-    opacity 0.4s ease;
+  transition: background-color 0.4s ease, opacity 0.4s ease;
  }
 
  .site-header-nav-list {
