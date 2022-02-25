@@ -132,7 +132,6 @@
  .hero-content {
   width: 500px;
   padding-top: 120px;
-  padding-bottom: 120px;
  }
 
 .hero-heading {
@@ -180,6 +179,11 @@ margin-bottom: 36px;
   display: flex;
   justify-content: center;
 
+}
+
+.service-item img {
+  border-radius: 24px;
+  box-shadow: 0px 12px 24px -8px #006B744D;
 }
 
  .service-item {
@@ -297,6 +301,7 @@ margin-bottom: 36px;
 
   .contact-btn:hover {
     background-color: #DE2E54;
+    border: #DE2E54 solid 2px;
   }
 
   .contact-btn:active {
@@ -348,6 +353,7 @@ margin-bottom: 36px;
 }
 
 .site-footer-link {
+  font-weight: 700;
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
