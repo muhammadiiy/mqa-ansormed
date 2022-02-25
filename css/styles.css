@@ -120,6 +120,7 @@
 
 .hero-container {
   display: flex;
+  justify-content: space-between;
 }
 
  .hero-content {
